@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: prd
+  datasource:
+    url: ${JDBC_DATABASE_URL}
+    username: postgres
+    password: HdubXhHzFTSYFKcuTZMzbHyCicYWfICD
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect

@@ -1,0 +1,1 @@
+web: java -jar build/libs/postAvanade-0.0.1-SNAPSHOT.jar
