@@ -14,11 +14,13 @@ repositories {
 }
 
 dependencies {
+
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.4'
+
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
-	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0' // Compatível com Spring Boot 3.4.3
-	implementation 'org.modelmapper:modelmapper:3.2.0' // Última versão estável
+	implementation 'org.modelmapper:modelmapper:3.2.0'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
